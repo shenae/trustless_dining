@@ -9,7 +9,7 @@ class Demo extends Component {
     return (
     <div>
       <article class="media">
-  <figure class="image is-150x150">
+  <figure class="image is-128x128">
         <img src={hostHome} id="pad" alt="homepage Molly app" />
       </figure>  
   <div class="media-content">
@@ -17,14 +17,14 @@ class Demo extends Component {
       <p>
         <strong>Restaurant Home Page</strong>
         <br />
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+        One user creates the group for the dining experience and then creates the QR code.
       </p>
     </div>
   </div>
 </article>
 
 <article class="media">
-  <figure class="image is-150x150">
+  <figure class="image is-128x128">
         <img src={userMenu} id="pad" alt="picture of user menu Molly app" />
       </figure>  
   <div class="media-content">
@@ -32,14 +32,14 @@ class Demo extends Component {
       <p>
         <strong>Restaurant Menu</strong>
         <br />
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+        The users can select which items they would like to order. 
       </p>
     </div>
   </div>
 </article>
 
 <article class="media">
-  <figure class="image is-150x150">
+  <figure class="image is-128x128">
         <img src={hostQR} id="pad" alt="pic of host QR code" />
       </figure>  
   <div class="media-content">
@@ -47,14 +47,14 @@ class Demo extends Component {
       <p>
         <strong>Restaurant QR Code</strong>
         <br />
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+        The QR code for the order is shown. 
       </p>
     </div>
   </div>
 </article>
 
 <article class="media">
-  <figure class="image is-150x150">
+  <figure class="image is-128x128">
         <img src={userScans} id="pad" alt="picture of user scan from Molly app" />
       </figure>  
   <div class="media-content">
@@ -62,7 +62,7 @@ class Demo extends Component {
       <p>
         <strong>User Scans Code</strong>
         <br />
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+        The main user scans the code.
       </p>
     </div>
   </div>
