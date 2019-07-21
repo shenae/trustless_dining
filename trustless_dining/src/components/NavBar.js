@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Demo from './Demo';
 import Process from './Process';
+import Docs from './Docs';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class NavBar extends Component {
   render() {
@@ -8,15 +10,15 @@ class NavBar extends Component {
     <div>
         <nav class="navbar is-white" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <h1 class="title is-2">Trustless Dining</h1>
+    <h1 class="title is-2">Molly</h1>
     <a class="navbar-item">
-        Overview
+    <Link to='/Demo'component={Demo}>Demo</Link>
       </a>
       <a class="navbar-item">
-        Process
+      <Link to='/Process'component={Process}>Process</Link>
       </a>
       <a class="navbar-item">
-        Docs
+      <Link to='/Docs'component={Docs}>Docs</Link>
       </a>
     <div class="navbar-end">
       <div class="navbar-item">

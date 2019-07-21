@@ -7,7 +7,6 @@ class Process extends Component {
     <div>
       <img src={flowchart} alt="flowchart of process" />
     </div>
-
         );
   }
 }
