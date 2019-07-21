@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+#pad {
+  padding: 10px;
+}
+
+/* #nav_height {
+  height: 90px;
+  margin-bottom: 0px;
+  padding: 0;
+} */
+
 .App-link {
   color: #61dafb;
 }
